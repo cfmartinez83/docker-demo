@@ -16,4 +16,4 @@ RUN chown -R www-data:www-data /var/www/html
 # Change working directory
 WORKDIR /var/www/html
 
-#CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
